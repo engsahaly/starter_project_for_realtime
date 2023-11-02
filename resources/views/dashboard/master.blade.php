@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="{{ LaravelLocalization::getCurrentLocale() }}">
+<html lang="en">
 @include('dashboard.partials.head')
 
-<body class="vertical light {{ LaravelLocalization::getCurrentLocaleDirection() }}">
+<body class="vertical light ltr">
     <div class="wrapper">
 
         @include('dashboard.partials.header')
